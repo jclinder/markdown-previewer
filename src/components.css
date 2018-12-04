@@ -1,0 +1,59 @@
+.Wrapper {
+  display: flex;
+  flex-direction: row;
+  height:100%;
+}
+
+.Toolbar {
+  min-height: 30px;
+  background-color: hsl(222, 11%, 19%);
+  flex: 0;
+}
+
+.toolbarText {
+  margin: 0px;
+  color: white;
+  padding: 5px 0px 5px 10px;
+  display: inline-block;
+}
+
+.Input {
+  flex: 1 1 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.textArea {
+  box-sizing: border-box;
+  width: 100%;
+  flex: 1;
+
+  padding: 0px 10px 0px 10px;
+  border: none;
+
+  background-color: hsl(222, 11%, 25%);
+  color: white;
+  resize: none;
+  font-size: 14px;
+  overflow-y: scroll;
+}
+
+.Preview {
+  flex: 1 1 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+.previewText {
+  flex: 1;
+
+  overflow-y: scroll;
+  background-color: hsl(222, 11%, 25%);
+  color: white;
+  padding: 0px 10px 0px 10px;
+  border: solid white;
+}
+
+.fas {
+  margin-right: 10px;
+}

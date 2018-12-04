@@ -1,3 +1,27 @@
+Design notes:
+
+structure
+App
+wrapper - shared state between input & previewer, has conversion Logic
+input & preview
+  includes linked input/display fields
+  similar styling
+  shared structure/css.
+  (unclear if should use one component w/ props or two)
+
+build static version that has prepopulated text in input, which gets passed to display
+
+
+Logic - create file for major functions and export them as default
+-markdown converter - called in wrapper
+
+components - create a js file for each component?
+
+
+
+
+
+---
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
